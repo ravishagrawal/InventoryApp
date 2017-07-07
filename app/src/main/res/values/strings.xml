@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">InventoryApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="empty_view_title_text">Your Shelf is Empty.Get Started by ordering things. Click on the + Button</string>
+
+    <string name="err_bad_uri">"Insertion is not supported for "</string>
+    <string name="add_product_title">Add Product</string>
+    <string name="edit_product_title">Edit Product</string>
+    <string name="add_product_photo">Update Photo</string>
+    <string name="err_external_storage_permissions">Need permissions to get a product photo</string>
+    <string name="insert_dummy_data">Insert dummy data</string>
+    <string name="action_delete_all_entries">Delete all Data</string>
+    <string name="update_picture">Click Photo to update</string>
+    <string name="product_name">Product Name</string>
+
+    <string name="set_product_sales">Set Product Sales</string>
+    <string name="set_inventory">Set Inventory</string>
+    <string name="set_product_price">Set Product Price</string>
+    <string name="set_supplier">Set Supplier</string>
+    <string name="order_more">Order</string>
+    <string name="update">Save</string>
+    <string name="save_product_label">Save Product</string>
+    <string name="update_product_label">Update product</string>
+    <string name="err_missing_textfields">You need to complete all fields</string>
+    <string name="err_inserting_product">Error inserting please try again</string>
+    <string name="ok_updated">Record updated successfully</string>
+    <string name="unsaved_changes_dialog_msg">You have unsave information are you sure you want to go back?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Lets finish this</string>
+    <string name="inventory_delete_failed">There was a problem deleting  product</string>
+    <string name="inventory_delete_successful">Deleted successfully</string>
+    <string name="delete_dialog_msg">Are you sure you want to delete the product?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="menu_settings">Settings</string>
+</resources>
+

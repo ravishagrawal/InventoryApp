@@ -1,0 +1,51 @@
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/inventory_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:text="NameDemo" />
+
+
+    <TextView
+        android:id="@+id/inventory_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inventory_name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        tools:text="Price INR 34" />
+
+
+    <TextView
+        android:id="@+id/inventory_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@id/inventory_price"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        tools:text="Inventory 3" />
+
+
+    <ImageView
+        android:id="@+id/sale_product"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginRight="10dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/colorAccent"
+        android:src="@drawable/ic_add_circle_outline_white_24dp"/>
+
+</RelativeLayout>
